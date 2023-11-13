@@ -75,6 +75,14 @@ const styles = StyleSheet.create({
         borderColor: 'white',
         borderRadius: 15, // Adjust the borderRadius as needed
         overflow: 'hidden', // Clip the child (mercury) within the rounded corners
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 4,
+        },
+        shadowOpacity: 0.3,
+        shadowRadius: 4.65,
+        elevation: 8,
     },
     thermometerStyle: {
         backgroundColor: '#a7bed3',
@@ -100,6 +108,14 @@ const styles = StyleSheet.create({
         borderRadius: 25,// Half of the width/height to make it a circle
         borderWidth: 5,
         borderColor: 'white',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 4,
+        },
+        shadowOpacity: 0.3,
+        shadowRadius: 4.65,
+        elevation: 9,
     },
     bottomCircleBorder: {
         position: 'absolute',
